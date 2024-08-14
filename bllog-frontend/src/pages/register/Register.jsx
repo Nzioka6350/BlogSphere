@@ -11,7 +11,7 @@ export default function Register() {
         <input className="registerInput" type="text" placeholder="Enter your email..." />
         <label>Password</label>
         <input className="registerInput" type="password" placeholder="Enter your password..." />
-        <button className="registerButton">Register</button>
+        <button className="registerButton">Sign Up</button>
       </form>
         <button className="registerLoginButton">Login</button>
     </div>
