@@ -12,7 +12,7 @@ export default function Sidebar() {
         />
         <p>
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
+          amet ex esse.Sunt eu ut nostrud id  proident.
         </p>
       </div>
       <div className="sidebarItem">
