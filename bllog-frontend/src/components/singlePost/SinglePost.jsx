@@ -40,7 +40,7 @@ export default function SinglePost() {
           iusto impedit! Voluptatum  eum beatae, adipisci voluptas
           a odit modi eos! Lorem,ipsum  sit amet consectetur adipisicing
           elit. Iste error quibusdam  quis  doloribus eos, dolore ea
-          iusto! Voluptatum necessitatibus eum beatae, adipisci voluptas
+          iusto! Voluptatum necessitatibus eum beatae,adipisci voluptas
           a odit modi eos! Lorem,s sit amet consectetur adipisicing
           elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
           iusto impedit! Voluptatum necessitatibus beatae, adipisci voluptas
