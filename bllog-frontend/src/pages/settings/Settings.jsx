@@ -32,7 +32,7 @@ export default function Settings() {
           <input type="email" placeholder="james@gmail.com" name="email" />
           <label>Password</label>
           <input type="password" placeholder="Password" name="password" />
-          <button className="settingsSubmitButton"type="submit">
+          <button className="settingsSubmitButton" type="submit">
             Update
           </button>
         </form>
