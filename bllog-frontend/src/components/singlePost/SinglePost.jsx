@@ -33,7 +33,7 @@ export default function SinglePost() {
           quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
           Voluptatum  eum beatae, adipisci voluptas a odit modi
           eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-          error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
+          error quibusdam ipsa quis quidem  eos, dolore ea iusto
           impedit! Voluptatum necessitatibus  beatae, adipisci voluptas a
           odit modi eos! Lorem, sit amet consectetur adipisicing
           elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
