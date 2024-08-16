@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="headerTitles">
-        <span className="headerTitleSm">Nzioka & ALX</span>
+        <span className="headerTitleSm">ALX & Pitch</span>
         <span className="headerTitleLg">BLOG</span>
       </div>
       <img
