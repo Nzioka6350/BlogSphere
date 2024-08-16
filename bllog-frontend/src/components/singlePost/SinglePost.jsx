@@ -53,7 +53,7 @@ export default function SinglePost() {
           eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
           error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
           impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
-          odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
+          odit modi eos! Lorem, ipsum dolor sit  consectetur adipisicing
           elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
           iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
           a odit modi eos! Lorem, ipsum dolor sit amet consectetur.
