@@ -44,7 +44,7 @@ export default function SinglePost() {
           a odit modi eos! Lorem,s sit amet consectetur adipisicing
           elit. Iste error quibusdam   quidem doloribus eos, dolore ea
           iusto impedit!Voluptatum necessitatibus , adipisci voluptas
-          a odit modi eos!
+           odit modi eos!
           <br />
           <br />
           Lorem, ipsum dolor  amet consectetur adipisicing elit. Iste error
