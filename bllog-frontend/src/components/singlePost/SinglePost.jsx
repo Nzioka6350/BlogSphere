@@ -31,7 +31,7 @@ export default function SinglePost() {
         <p className="singlePostDesc">
           Lorem, ipsum dolor sit amet  adipisicing elit.Iste error
           quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
-          eum beatae,  voluptas a odit modi
+          eum beatae,  voluptas a  modi
           eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
           error quibusdam ipsa quis quidem  eos, dolore ea iusto
           impedit! Voluptatum necessitatibus  beatae, adipisci voluptas a
