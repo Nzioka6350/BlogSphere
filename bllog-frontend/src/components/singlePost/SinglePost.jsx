@@ -34,7 +34,7 @@ export default function SinglePost() {
           eum beatae,  voluptas a  modi
           eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
           error quibusdam ipsa quis quidem  eos, dolore ea iusto
-          impedit! Voluptatum necessitatibus  beatae, adipisci voluptas a
+          impedit!  necessitatibus  beatae, adipisci voluptas a
           odit modi eos! Lorem, sit amet consectetur adipisicing
           elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
           iusto impedit! Voluptatum eum beatae, adipisci voluptas
