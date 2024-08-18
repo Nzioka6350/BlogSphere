@@ -57,7 +57,8 @@ export default function SinglePost() {
              Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
           iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
           a odit modi eos Lorem, ipsum dolor sit amet consectetur.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam unde officiis in suscipit vel dolorem odio, quod omnis cumque consequatur nisi,
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Laboriosam unde officiis in suscipit vel dolorem odio, quod omnis cumque consequatur nisi,
            totam quisquam enim esse animi aut nemo, doloremque recusandae.
         </p>
       </div>
