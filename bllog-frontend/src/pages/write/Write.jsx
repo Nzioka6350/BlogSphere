@@ -24,7 +24,7 @@ export default function Write() {
         <div className="writeFormGroup">
           <textarea
             className="writeInput writeText"
-            placeholder="Tell your story...."
+            placeholder="Write your blog...."
             type="text"
             autoFocus={true}
           />
