@@ -11,7 +11,7 @@ export default function Sidebar() {
           alt=""
         />
         <p>
-          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
+          Laboris  aute cupidatat velit magna velit ullamco dolore mollit
           amet ex esse.Sunt eu ut nostrud id  proident.
         </p>
       </div>
