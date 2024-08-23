@@ -110,7 +110,7 @@ const Cart = () => {
        <hr />
        <div className="flex justify-between sansPro semibold my-3">
             <p className="sansPro font-bold">Total</p>
-            <p className="sansPro ">{ total === 0 ? (<p  className="sansPro">Ksh 0.000</p>) : (<p  className="sansPro">₦{subTotal().toLocaleString()}</p>)  }</p>
+            <p className="sansPro ">{ total === 0 ? (<p  className="sansPro">Ksh 0.000</p>) : (<p  className="sansPro">Ksh {subTotal().toLocaleString()}</p>)  }</p>
         </div>
 
       <hr />
