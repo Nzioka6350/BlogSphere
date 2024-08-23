@@ -53,7 +53,7 @@ const Footer = () => {
           <div className='flex items-center gap-x-2'>
 
           <MdOutlineEmail />
-          <p>support@chickencity.com</p>
+          <p>support@jovian.com</p>
           </div>
           </div>  
       </div>
