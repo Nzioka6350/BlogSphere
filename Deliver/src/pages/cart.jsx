@@ -103,7 +103,7 @@ const Cart = () => {
        <select name="delivery" className="w-full py-2 px-1 bg-gray-200 outline-slate-300 font-semibold rounded-sm sansPro" onChange={ handleFee } value={ fee }>
         <option className='sansPro  w-full' value="800">STANDARD DELIVERY  Ksh 800</option>
         <option className='sansPro w-full' value="1500">EXPRESS DELIVERY  Ksh 1,500</option>
-        <option className='sansPro w-full' value="2500">⚡SWIFT-HIGH PRIORITY  ₦2,500</option>
+        <option className='sansPro w-full' value="2500">⚡SWIFT-HIGH PRIORITY  Ksh 2,500</option>
       </select>
        </div>
 
