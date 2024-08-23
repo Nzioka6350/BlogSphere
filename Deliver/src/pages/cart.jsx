@@ -88,21 +88,21 @@ const Cart = () => {
         <hr />
         <div className="flex justify-between sansPro  my-2">
             <p className="sansPro font-bold">Subtotal</p>
-            <p className="sansPro ">₦{total.toLocaleString()}</p>
+            <p className="sansPro ">Ksh{total.toLocaleString()}</p>
         </div>
         <div className="flex justify-between sansPro semibold ">
             <p className="sansPro font-bold">Shipping</p>
-            <p className="sansPro ">₦{fee}</p>
+            <p className="sansPro ">Ksh{fee}</p>
         </div>
 
         <div className="flex justify-between sansPro semibold ">
             <p className="sansPro font-bold">Discount</p>
-            <p className="sansPro ">₦0</p>
+            <p className="sansPro ">Ksh0</p>
         </div>
         <div className="w-full py-2 mb-2">
        <select name="delivery" className="w-full py-2 px-1 bg-gray-200 outline-slate-300 font-semibold rounded-sm sansPro" onChange={ handleFee } value={ fee }>
-        <option className='sansPro  w-full' value="800">STANDARD DELIVERY  ₦800</option>
-        <option className='sansPro w-full' value="1500">EXPRESS DELIVERY  ₦1,500</option>
+        <option className='sansPro  w-full' value="800">STANDARD DELIVERY  Ksh 800</option>
+        <option className='sansPro w-full' value="1500">EXPRESS DELIVERY  Ksh 1,500</option>
         <option className='sansPro w-full' value="2500">⚡SWIFT-HIGH PRIORITY  ₦2,500</option>
       </select>
        </div>
@@ -110,7 +110,7 @@ const Cart = () => {
        <hr />
        <div className="flex justify-between sansPro semibold my-3">
             <p className="sansPro font-bold">Total</p>
-            <p className="sansPro ">{ total === 0 ? (<p  className="sansPro">₦0.000</p>) : (<p  className="sansPro">₦{subTotal().toLocaleString()}</p>)  }</p>
+            <p className="sansPro ">{ total === 0 ? (<p  className="sansPro">Ksh 0.000</p>) : (<p  className="sansPro">₦{subTotal().toLocaleString()}</p>)  }</p>
         </div>
 
       <hr />
