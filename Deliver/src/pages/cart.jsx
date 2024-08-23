@@ -66,7 +66,7 @@ const Cart = () => {
                   whileTap={{scale:1.2}}
                   className="rounded-full p-2 w-8 h-8 justify-center items-center border-slate-300 border-2 text-xs" onClick={()=> {increase({id})}}>< HiPlus/></motion.span></span></div>
                 </div>
-                <div className="w-2/6 sansPro flex flex-col justify-between "><p className="sansPro">{quantity} x ₦{price.toLocaleString()}</p> <p className="underline underline-offset-2 sansPro py-2 text-slate-600" onClick={() => { removeFromCart({id})} }>
+                <div className="w-2/6 sansPro flex flex-col justify-between "><p className="sansPro">{quantity} x Ksh{price.toLocaleString()}</p> <p className="underline underline-offset-2 sansPro py-2 text-slate-600" onClick={() => { removeFromCart({id})} }>
                 Remove
                </p></div>
             
