@@ -86,7 +86,7 @@ const CartContainer = () => {
                   className="cursor-pointer border rounded-full p-2" onClick={()=> {increase({id})}}><HiPlus /></motion.span>
                 </div>
                 <div className="sm:w-2/6 lg:w-1/6 flex sm:justify-around lg:justify-between items-center">
-                  <span className="font-semibold  sansPro">{quantity} x ₦{price.toLocaleString()}</span>
+                  <span className="font-semibold  sansPro">{quantity} x Ksh {price.toLocaleString()}</span>
                   <span className="font-bold text-2xl rotate-45 cursor-pointer hover:text-red-500 " onClick={() =>removeFromCart({id}) }> + </span>
                 </div>
                 
@@ -125,26 +125,26 @@ const CartContainer = () => {
        <div className="flex items-center justify-between font-semibold  ">
         <p className="pt-8 font-semibold sansPro">ITEMS({cartItems.map((item) =>item.quantity).reduce((acc,i)=>{
               return acc += i},0)})</p>
-        <p className="pt-8 sansPro"> ₦{total.toLocaleString()}</p>
+        <p className="pt-8 sansPro"> Ksh{total.toLocaleString()}</p>
        </div>
 
        <span className="font-semibold  flex justify-between sansPro">
         <p className="font-semibold sansPro">SHIPPING</p>
 
-        <p className="sansPro">₦{fee}</p>
+        <p className="sansPro">Ksh{fee}</p>
        </span>
 
        <span className="font-semibold  flex justify-between sansPro">
         <p className="font-semibold sansPro">DISCOUNT</p>
 
-        <p className="sansPro">₦0</p>
+        <p className="sansPro">Ksh0</p>
        </span>
 
        <div className="w-full py-2">
        <select name="delivery" className="w-full p-2 outline-none font-semibold rounded-sm sansPro" onChange={ handleFee } value={ fee }>
-        <option className='p-2 sansPro' value="800">STANDARD DELIVERY  ₦800</option>
-        <option className='p-2 sansPro' value="1500">EXPRESS DELIVERY  ₦1,500</option>
-        <option className='p-2 sansPro' value="2500">⚡SWIFT-HIGH PRIORITY  ₦2,500</option>
+        <option className='p-2 sansPro' value="800">STANDARD DELIVERY  Ksh 800</option>
+        <option className='p-2 sansPro' value="1500">EXPRESS DELIVERY  Ksh 1,500</option>
+        <option className='p-2 sansPro' value="2500">⚡SWIFT-HIGH PRIORITY  Ksh 2,500</option>
       </select>
        </div>
 
@@ -162,7 +162,7 @@ const CartContainer = () => {
 
        <div className="flex justify-between py-4 font-semibold sansPro">
          <p className="font-semibold sansPro">TOTAL PRICE</p>
-         <p className="sansPro">{ total === 0 ? (<p  className="sansPro">₦0.000</p>) : (<p  className="sansPro">₦{subTotal().toLocaleString()}</p>)  }</p>
+         <p className="sansPro">{ total === 0 ? (<p  className="sansPro">Ksh 0.000</p>) : (<p  className="sansPro">₦{subTotal().toLocaleString()}</p>)  }</p>
        </div>
 
        {User ? (<div className="w-full bg-black flex items-center justify-center gap-x-1 text-white my-2 text-center p-2 rounded-sm cursor-pointer sansPro " onClick={ flutterModal }>CHECKOUT <MdOutlinePayment className='w-4 h-4'/> </div>) : (<div className="w-full bg-black flex items-center justify-center gap-x-1 text-white my-2 text-center p-2 rounded-sm cursor-pointer sansPro " onClick={handleLogin}>CHECKOUT <MdOutlinePayment className='w-4 h-4'/> </div>)}
