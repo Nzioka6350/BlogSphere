@@ -112,7 +112,7 @@ const FoodDetails = () => {
         <h3 className='md:text-xl text-md font-bold'>{title}</h3>
         {/* <h3 className='md:text-xl text-sm font-semibold text-slate-500'>Category:{category}</h3> */}
         <span className='flex gap-x-1'>{<> 
-         <strike className='md:text-lg text-sm font-semibold text-orange-700 '>₦{<>{price + 1000}</>}</strike> <p className='md:text-lg text-sm font-semibold'>₦{price.toLocaleString()}</p> 
+         <strike className='md:text-lg text-sm font-semibold text-orange-700 '>Ksh{<>{price + 1000}</>}</strike> <p className='md:text-lg text-sm font-semibold'>₦{price.toLocaleString()}</p> 
         </>}</span>
         <p className='flex gap-x-1 items-center'>{ [...Array(5)].map((_ , i) => (
            <span className='flex items-center'> {rating > i ? <IoMdStar className=' text-yellow-400' /> : <IoMdStarOutline className=' text-slate-700' />  }  </span> 
