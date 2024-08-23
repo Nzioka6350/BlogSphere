@@ -26,9 +26,9 @@ const Footer = () => {
        <div className='flex text-white gap-x-2'>
        
          <a href=" https://www.facebook.com/JamesNziokaKe">< FaFacebook  /></a>
-         <a href="https://twitter.com/sazzy_io"><FaTwitter  /></a>
+         <a href="https://twitter.com/_itsNzioka"><FaTwitter  /></a>
          <a href="https://www.instagram.com/its_nzioka_/"><FaInstagram /></a>
-         <a href="https://www.linkedin.com/in/idahosa-joshua/"> <FaLinkedin /></a>
+         <a href="https://www.linkedin.com/in/jamesnzioka/"> <FaLinkedin /></a>
        </div>
       </div>
        
