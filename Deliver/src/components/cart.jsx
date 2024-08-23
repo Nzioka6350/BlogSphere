@@ -162,7 +162,7 @@ const CartContainer = () => {
 
        <div className="flex justify-between py-4 font-semibold sansPro">
          <p className="font-semibold sansPro">TOTAL PRICE</p>
-         <p className="sansPro">{ total === 0 ? (<p  className="sansPro">Ksh 0.000</p>) : (<p  className="sansPro">₦{subTotal().toLocaleString()}</p>)  }</p>
+         <p className="sansPro">{ total === 0 ? (<p  className="sansPro">Ksh 0.000</p>) : (<p  className="sansPro">Ksh {subTotal().toLocaleString()}</p>)  }</p>
        </div>
 
        {User ? (<div className="w-full bg-black flex items-center justify-center gap-x-1 text-white my-2 text-center p-2 rounded-sm cursor-pointer sansPro " onClick={ flutterModal }>CHECKOUT <MdOutlinePayment className='w-4 h-4'/> </div>) : (<div className="w-full bg-black flex items-center justify-center gap-x-1 text-white my-2 text-center p-2 rounded-sm cursor-pointer sansPro " onClick={handleLogin}>CHECKOUT <MdOutlinePayment className='w-4 h-4'/> </div>)}
