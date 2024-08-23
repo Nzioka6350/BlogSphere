@@ -100,7 +100,7 @@ const Foods = () => {
             <span className='lg:text-sm text-xs text-center py-2 font-bold hover:underline'>{title}
             </span>
             </Link>
-            <div className='flex text-sm text-center py-2 font-bold justify-between items-center w-full p-2 '><p className=' p-1 rounded-lg text-slate-800'>₦{price.toLocaleString()}</p> {cartItems && !cartItems.some((item) => item.id === id ) ? (<span onClick={() => {
+            <div className='flex text-sm text-center py-2 font-bold justify-between items-center w-full p-2 '><p className=' p-1 rounded-lg text-slate-800'>Ksh{price.toLocaleString()}</p> {cartItems && !cartItems.some((item) => item.id === id ) ? (<span onClick={() => {
                addItem({ id , price , title ,image01 , quantity ,category})
             }} className='text-lg px-2 rounded text-white bg-red-300  hover:bg-white hover:text-red-400' 
             >+</span>)  :(<span disabled onClick={remove} className='text-lg px-2 rounded  text-white bg-red-300  hover:bg-white hover:text-red-400' 
