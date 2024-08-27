@@ -243,6 +243,7 @@ const FoodDetails = () => {
            >+</span>)  :(<span disabled onClick={remove} className='text-lg px-2 rounded  text-white bg-red-300  hover:bg-white hover:text-red-400' 
            ><TiDelete className='w-6 h-6' /></span>)} 
            </div>
+           
         <div className='absolute top-0 text-slate-900 right-0 bg-gradient-to-br from-slate-50 to-red-300 font-semibold rounded-tr-lg rounded-bl-lg text-xs overflow-hidden p-1'>10% OFF</div>
        </motion.div>
       </div>
