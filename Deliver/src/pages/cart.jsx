@@ -93,6 +93,7 @@ const Cart = () => {
         <div className="flex justify-between sansPro semibold ">
             <p className="sansPro font-bold">Shipping</p>
             <p className="sansPro ">Ksh{fee}</p>
+            
         </div>
 
         <div className="flex justify-between sansPro semibold ">
